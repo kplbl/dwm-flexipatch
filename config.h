@@ -953,7 +953,7 @@ static const char *dmenucmd[] = {"dmenu_run",
                                  topbar ? NULL : "-b",
 #endif // BAR_DMENUMATCHTOP_PATCH
                                  NULL};
-static const char *termcmd[] = {"st", NULL};
+static const char *termcmd[] = {"kitty", NULL};
 
 #if BAR_STATUSCMD_PATCH
 #if BAR_DWMBLOCKS_PATCH
